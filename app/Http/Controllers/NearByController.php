@@ -8,8 +8,8 @@ use App\Helper;
 class NearByController extends Controller
 {
 
-    const officeLat=53.3340285;
-    const officeLong=-6.2535495;
+    const officeLat  = 53.3340285;
+    const officeLong = -6.2535495;
 
     public function NearByAffiliates(){
 
@@ -34,7 +34,7 @@ class NearByController extends Controller
         //convert array into collection for sorting
         $collection = collect($affilates);
 
-        //sort the collection by affiliate id    
+        //sort the collection by affiliate id  and return view   
 
         return view('welcome', ['newAffilates' => $collection->sortBy('affiliate_id')]);
     }
