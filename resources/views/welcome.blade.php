@@ -25,13 +25,15 @@
           <tr>
             <th>ID</th>
             <th>Name</th>
+            <th>Distance</th>
           </tr>
           @foreach($newAffilates as $newAffilate)
             @if($newAffilate->distance < 100)    
               <tr>
                 <td>{{$newAffilate->affiliate_id}}</td>
                 <td>{{$newAffilate->name}}</td>
-              </tr>
+                <td>{{$newAffilate->distance}}</td>
+               </tr>
             @endif  
           @endforeach
         </table>
