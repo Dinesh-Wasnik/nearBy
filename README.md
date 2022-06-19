@@ -1,4 +1,4 @@
-## How to Run
+## How to Run project
 
 - Run `php artisan serve` command to start the project.
 - Copy `http://127.0.0.1:8000` url and paste to address bar of browser and hit enter button.
