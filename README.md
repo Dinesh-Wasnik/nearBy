@@ -1,3 +1,7 @@
+## About
+
+Shows the affiliates list which are under 100km range. The distance is calculated  using latitude and longitude of affiliate.
+
 ## How to Run project
 
 - Run `php artisan serve` command to start the project.
